@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WorldToDedicatedServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WorldToDedicatedServer_jar</output-path>
+    <root id="archive" name="WorldToDedicatedServer.jar">
+      <element id="module-output" name="WorldToDedicatedServer" />
+    </root>
+  </artifact>
+</component>
