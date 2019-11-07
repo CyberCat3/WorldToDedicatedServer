@@ -1,4 +1,4 @@
-package com.andreasdkunz.minecraft_world_to_dedicated_server;
+package com.cybercat3.minecraft_world_to_dedicated_server;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

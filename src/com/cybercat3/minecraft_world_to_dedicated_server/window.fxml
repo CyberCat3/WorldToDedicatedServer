@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.TextField?>
-<BorderPane fx:controller="com.andreasdkunz.minecraft_world_to_dedicated_server.Controller"
+<BorderPane fx:controller="com.cybercat3.minecraft_world_to_dedicated_server.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
         <VBox alignment="CENTER">

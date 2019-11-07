@@ -1,4 +1,4 @@
-package com.andreasdkunz.minecraft_world_to_dedicated_server;
+package com.cybercat3.minecraft_world_to_dedicated_server;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -9,7 +9,6 @@ import javafx.stage.Stage;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;

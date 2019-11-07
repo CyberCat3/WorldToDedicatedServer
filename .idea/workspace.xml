@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Changed the launcher file to only allocate 4gb to the server. This change was made to increase compatibility.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WorldToDedicatedServer/com/andreasdkunz/minecraft_world_to_dedicated_server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WorldToDedicatedServer/com/andreasdkunz/minecraft_world_to_dedicated_server/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Changed the launcher file to only allocate 4gb to the server. This change was made to increase compatibility." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/andreasdkunz/minecraft_world_to_dedicated_server/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="345" column="21" lean-forward="true" selection-start-line="345" selection-start-column="21" selection-end-line="345" selection-end-column="21" />
+              <caret line="345" column="21" selection-start-line="345" selection-start-column="21" selection-end-line="345" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -127,9 +124,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1223" />
-    <option name="height" value="1088" />
+    <option name="x" value="-9" />
+    <option name="width" value="1224" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectId" id="1R12qDUF6F7jN9Kw3mK1pbXZoLp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -240,7 +237,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.andreasdkunz.minecraft_world_to_dedicated_server.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.cybercat3.minecraft_world_to_dedicated_server.Main" />
       <module name="WorldToDedicatedServer" />
       <extension name="coverage">
         <pattern>
@@ -295,6 +292,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.access-bridge-64.jar" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JAR Application.access-bridge-64.jar" />
@@ -385,7 +386,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/andreasdkunz/minecraft_world_to_dedicated_server/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="345" column="21" lean-forward="true" selection-start-line="345" selection-start-column="21" selection-end-line="345" selection-end-column="21" />
+          <caret line="345" column="21" selection-start-line="345" selection-start-column="21" selection-end-line="345" selection-end-column="21" />
         </state>
       </provider>
     </entry>

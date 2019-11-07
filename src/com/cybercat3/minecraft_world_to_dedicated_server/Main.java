@@ -1,12 +1,10 @@
-package com.andreasdkunz.minecraft_world_to_dedicated_server;
+package com.cybercat3.minecraft_world_to_dedicated_server;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
