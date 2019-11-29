@@ -15,7 +15,7 @@ public class Main extends Application {
         FXMLLoader myLoader = new FXMLLoader(getClass().getResource("window.fxml"));
         Parent root = myLoader.load();
         primaryStage.setTitle("World To Dedicated Server");
-        final int WIDTH = 480;
+        final int WIDTH = 520;
         final int HEIGHT = 260;
         primaryStage.setScene(new Scene(root, WIDTH, HEIGHT));
         {

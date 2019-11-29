@@ -224,7 +224,7 @@ public class Controller {
     }
     private boolean createLauncherFile() {
         try (FileOutputStream fos = new FileOutputStream(new File(server, START_BAT))) {
-            fos.write(("java -Xmx4G -Xms2048m -Xmn2047m -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=20000 -XX:ParallelGCThreads=10 -jar "+MINECRAFT_SERVER_JAR).getBytes(StandardCharsets.UTF_8));
+            fos.write(("java -Xmx2G -jar "+MINECRAFT_SERVER_JAR).getBytes(StandardCharsets.UTF_8));
             return true;
         } catch (IOException e) {
             e.printStackTrace();
@@ -234,7 +234,7 @@ public class Controller {
 
     private boolean createLauncherFileNoGUI() {
         try (FileOutputStream fos = new FileOutputStream(new File(server, START_BAT_NO_GUI))) {
-            fos.write(("java -Xmx4G -Xms2048m -Xmn2047m -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=20000 -XX:ParallelGCThreads=10 -jar "+MINECRAFT_SERVER_JAR+" nogui").getBytes(StandardCharsets.UTF_8));
+            fos.write(("java -Xmx2G -jar "+MINECRAFT_SERVER_JAR+" nogui").getBytes(StandardCharsets.UTF_8));
             return true;
         } catch (IOException e) {
             e.printStackTrace();
@@ -332,8 +332,7 @@ public class Controller {
     private String stringShorter(String input, int charLimit) {
         return input.length() > charLimit ?
                 "..." + input.substring(
-                        input.length() - charLimit + 3,
-                        input.length()
+                        input.length() - charLimit + 3
                 ) :
                 input;
     }
